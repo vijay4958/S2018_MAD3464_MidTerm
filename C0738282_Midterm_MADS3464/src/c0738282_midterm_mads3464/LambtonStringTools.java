@@ -12,7 +12,9 @@ public class LambtonStringTools {
     
     static int a;
     static int bin;
-    static int res;
+    static int binary[];
+    static int index;
+    
     
     static String reverse(String s){
         char ch[] = new char[s.length()];
@@ -27,7 +29,8 @@ public class LambtonStringTools {
     
     
     
-      public int binaryToDecimal(String s){
-          s.toCharArray() = new
+      public int binaryToDecimal(String binary){
+   numbers = binary.toCharArray();
+   
     }
 }
