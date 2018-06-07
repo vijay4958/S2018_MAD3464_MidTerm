@@ -12,11 +12,11 @@ public class LambtonStringTools {
     
     static int a;
     static int bin;
-    static int binary[];
-    static int index;
+    static int deci = 0;
+    static int pwr = 0
     
     
-    static String reverse(String s){
+    public String reverse(String s){
         char ch[] = new char[s.length()];
         for(a = 0;a < s.length();a++){
             ch[a] = s.charAt(a);
@@ -29,8 +29,23 @@ public class LambtonStringTools {
     
     
     
-      public int binaryToDecimal(String binary){
-   numbers = binary.toCharArray();
-   
-    }
-}
+      public int binaryToDecimal(String s){
+          bin = Integer.parseInt(s);
+          while(true){
+             if(bin == 0)
+             {
+                 break;
+                 {
+             else
+                     {
+                             int demi = bin^10;
+                             deci+=demi(*Math.pow(2,pwr);
+                             bin = bin/10;
+                                     pwr++;
+                             }
+                     
+         
+      }
+    return deci;     
+             }
+             public String 
