@@ -23,6 +23,10 @@ public class C0738282_Midterm_MADS3464 {
        lma.reverse("lambton");
         System.out.println(" \n Second Method Execution - StringToBinary");
     lma.binaryToDecimal("1000");
-    }
+    System.out.println("third Method Execution - StringToBinary");
+    1st.initials("vijay");
+    System.out.println("\nfourth Method Execution - mostFrequent");
+    System.out.println(1st.mostFrequent("College"));
+    
     
 }
